@@ -37,7 +37,7 @@ class Widget(QtGui.QWidget):
 
 		# self.tree.valueBoxes['Governing']
 	def setupGUI(self):
-		self.setWindowTitle("Igor")
+		self.setWindowTitle("Kirsch Solution")
 		# self.setGeometry(500, 300, 350, 200)
 		self.layout = QtGui.QHBoxLayout()
 		self.setLayout(self.layout)
