@@ -22,7 +22,7 @@ class ColorMapWidget(pg.GraphicsLayoutWidget):
 		setup_plot(self.plt)
 		# self.plt.setLabel('left', yname)
 		# self.plt.setLabel('bottom', xname)
-		# self.img = pg.ImageItem()
+		self.img = pg.ImageItem()
 		# self.plt.addItem(self.img)
 		self.axis = pg.AxisItem('left')
 		self.addItem(self.axis)
