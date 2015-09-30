@@ -155,6 +155,7 @@ if __name__ == '__main__':
 	pnames = ['Sx','Sy','sigmaxx','Sigmaxy','Sigmayy']
 	# col = [(255,0,0),(0,255,0),(0,0,255)]
 	app = QtGui.QApplication([])
+	
 	tree = DataTreeWidget(name='Data')
 	tree.addItems(names,group='Governing')
 	tree.addItems(pnames,group='Plotting')
